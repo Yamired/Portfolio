@@ -8,4 +8,7 @@ export default defineNuxtConfig({
         dataValue: 'theme', // propriété data-theme --> <html> tag
         classSuffix: '',
     },
+    css: [
+        '@/assets/css/main.css',
+    ],
 })
