@@ -2,9 +2,7 @@
 	<NuxtLoadingIndicator :height="5" :color="color" />
 	<div class="flex flex-row">
 		<Sidebar></Sidebar>
-		<div class="container flex flex-col mx-auto px-2 items-center">
-			<NuxtPage/>
-		</div>
+		<NuxtPage />
 	</div>
 </template>
 

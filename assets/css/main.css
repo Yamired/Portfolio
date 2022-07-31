@@ -1,5 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.title-family {
-    font-family: Bebas Neue, system-ui, sans-serif;
+/* Imports de familles de police */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Famille de texte par défaut */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Couleur lors de la sélection de texte */
+::-moz-selection {
+    color: hsl(var(--s));
+    background: hsl(var(--sc));
+}
+::selection {
+    color: hsl(var(--s));
+    background: hsl(var(--sc));
 }
